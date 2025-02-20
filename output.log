@@ -6,6 +6,5 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:8080
  * Running on http://10.0.3.146:8080
 Press CTRL+C to quit
-127.0.0.1 - - [20/Feb/2025 07:24:56] "GET / HTTP/1.1" 404 -
-127.0.0.1 - - [20/Feb/2025 07:29:00] "GET / HTTP/1.1" 404 -
-127.0.0.1 - - [20/Feb/2025 07:29:04] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 07:58:26] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2025 07:58:43] "GET /htop HTTP/1.1" 200 -
