@@ -1,10 +1,21 @@
 nohup: ignoring input
  * Serving Flask app 'app'
- * Debug mode: off
+ * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
  * Running on http://10.0.3.146:8080
 Press CTRL+C to quit
-127.0.0.1 - - [20/Feb/2025 07:58:26] "GET / HTTP/1.1" 404 -
-127.0.0.1 - - [20/Feb/2025 07:58:43] "GET /htop HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-058-701
+127.0.0.1 - - [20/Feb/2025 08:03:11] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2025 08:03:14] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 08:04:17] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 08:04:26] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2025 08:04:29] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 08:05:42] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 08:07:04] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 08:07:16] "GET /htop HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2025 08:07:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Feb/2025 08:08:05] "GET /htop HTTP/1.1" 200 -

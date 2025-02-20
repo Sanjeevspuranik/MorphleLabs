@@ -13,9 +13,11 @@ def htop():
     # Get system username
     username = os.getenv('USER') or os.getenv('USERNAME') or "Unknown"
 
+    # Get server time in IST
     ist = pytz.timezone('Asia/Kolkata')
     server_time = datetime.datetime.now(ist).strftime('%Y-%m-%d %H:%M:%S %Z')
 
+    # Get "top" command output
     try:
         top_output = subprocess.check_output("top -b -n 1 | head -15", shell=True, text=True)
     except subprocess.CalledProcessError:
@@ -37,4 +39,4 @@ def htop():
     return html_content
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=8080, debug=True) 
